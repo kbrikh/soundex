@@ -1,0 +1,20 @@
+{
+    "name": "soundex",
+    "version": "1.0.0",
+    "description": "A simple module to generate the SOUNDEX for French language",
+    "main": "index.js",
+    "scripts": {
+        "test": "jasmine && exit 0",
+        "lint": "eslint ."
+    },
+    "keywords": ["soundex", "soundex fr"],
+    "author": "Kamel BRIKH",
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^7.12.1",
+        "eslint-config-airbnb-base": "^14.2.0",
+        "eslint-plugin-import": "^2.22.1",
+        "jasmine": "^3.6.3",
+        "jasmine-spec-reporter": "^6.0.0"
+    }
+}
