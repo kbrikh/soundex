@@ -1,13 +1,19 @@
 {
     "name": "soundex",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "description": "A simple module to generate the SOUNDEX for French language",
     "main": "index.js",
+    "bin": {
+        "soundex": "./scripts/index.js"
+    },
     "scripts": {
-        "test": "jasmine && exit 0",
+        "test": "jasmine ./test/**/*.spec.js && exit 0",
         "lint": "eslint ."
     },
-    "keywords": ["soundex", "soundex fr"],
+    "keywords": [
+        "soundex",
+        "soundex fr"
+    ],
     "author": "Kamel BRIKH",
     "license": "MIT",
     "devDependencies": {
